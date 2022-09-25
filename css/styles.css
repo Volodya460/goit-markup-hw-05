@@ -581,6 +581,10 @@ padding: 0;
    text-align: center;
    padding: 6px 22px;
    border:none ;
+   transition:
+   background-color 250ms var(--timing-fuction),
+   color 250ms var(--timing-fuction),
+   box-shadow 250ms var(--timing-fuction) ;
 
     } 
     .filtr-button:hover , .filtr-button:focus{
